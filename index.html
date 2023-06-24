@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Babylonica&family=Dancing+Script&family=Freehand&family=Gentium+Plus&family=Shadows+Into+Light&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li class="brand"><img src="images/logo.png" alt="spotify"><span>Spotify-Clone</span></img></li>
+            <li><a href="www.spotify.com">Home</a></li>
+            <li><a href="www.spotify.com">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h2>Your Favourites</h2>
+            <div class="songitems">
+                <img class="s1" src="images/l_n_r_cover.jpeg" alt="">
+                <span class="name"><strong><em>Left and right</em> </strong></span><span > <em class="dur">02:39</em> <img id="left_and_right" class="songitemsplay" src="images/play.png" alt=""></span>
+            </div>
+            <div class="songitems">
+                <img class="s1" src="images/habibi.jpeg" alt="">
+                <span class="name"><strong><em>Habibi</em> </strong></span><span > <em class="dur">02:09</em> <img id="habibi" class="songitemsplay" src="images/play.png" alt=""></span>
+            </div>
+            <div class="songitems">
+                <img class="s1" src="images/levitating.jpeg" alt="">
+                <span class="name"><strong><em>Levitating</em> </strong></span><span><em class="dur">03:50</em> <img id="levitating" class="songitemsplay" src="images/play.png" alt=""></span>
+            </div>
+            <div class="songitems">
+                <img class="s1" src="images/meta.jpeg" alt="">
+                <span class="name"><strong><em>Metamorphosis</em> </strong></span><span> <em class="dur">02:52</em> <img id="Metamorphosis" class="songitemsplay" src="images/play.png" alt=""></span>
+            </div>
+            <div class="songitems">
+                <img class="s1" src="images/no_lie.jpg" alt="">
+                <span class="name"><strong><em>NO-Lie</em> </strong></span><span> <em class="dur">03:43</em> <img id="no_lie" class="songitemsplay" src="images/play.png" alt=""></span>
+            </div>
+            
+        </div>
+        <div class="songBanner">
+            
+        </div>
+    </div>
+
+    <div class="sound-track">
+         <input type="range" id="myProgressBar" min="0" max="100" value="0">
+         <div class="icons">
+            <img class="masterPlay" src="images/play3.png" alt="" >
+         </div>
+         <div class="songinfo">
+            <img src="images/music.gif" alt="">
+            <h6></h6>
+         </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
